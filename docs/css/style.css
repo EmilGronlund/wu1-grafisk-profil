@@ -36,14 +36,13 @@
     --space-s-l: clamp(1.125rem, 0.5625rem + 2.5vw, 2.5rem);
 
     /* Variabler för färger */
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
+    --primary-color: #87c7ff;
     --color-dark: #333;
     --color-light: #f9f9f9;
 
     /* Variabler för typografi */
-    --type-heading: sans-serif;
-    --type-body: serif;
+    --type-heading: "Montserrat", sans-serif;
+    --type-body: "Montserrat", sans-serif;
     --line-height-body: 1.6;
     --line-height-heading: 1.1;
 
@@ -128,18 +127,9 @@ img {
     background-color: var(--primary-color);
 }
 
-.secondary-bg {
-    background-color: var(--secondary-color);
-}
-
 .primary {
     color: var(--primary-color);
     fill: var(--primary-color);
-}
-
-.secondary {
-    color: var(--secondary-color);
-    fill: var(--secondary-color);
 }
 
 .light {
@@ -174,19 +164,24 @@ img {
     text-decoration: none;
 }
 
-.button:hover,
-.button:focus {
-    opacity: 0.9;
+.button.primary:hover,
+.button.primary:focus {
+    filter: brightness(90%);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    opacity: 0.8;
 }
 
 .button.primary {
     background-color: var(--primary-color);
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 .button.secondary {
-    background-color: var(--secondary-color);
-    color: var(--color-light);
+    background-color: var(--color-dark);
+    color: var(--primary-color);
 }
 
 /* Stilar specifikt för den här demosidan */

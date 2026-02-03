@@ -7,6 +7,10 @@
     <title>Grafisk profil - Exempel</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,8 +18,6 @@
         <article id="intro" class="wrapper region flow">
             <h1>Välkommen till vår grafiska profil</h1>
             <p>Denna sida visar exempel på vår grafiska profil inklusive färger, typsnitt och layout.</p>
-            <p>För att använda den här mallen så gör du ändringarna i CSS-filen. Du kan där styra över storleksmått samt
-                färg och typsnitt.</p>
             <a href="#toc" class="arrow-down">
                 <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px">
                     <path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z" />
@@ -38,7 +40,10 @@
         </article>
         <article id="logo" class="wrapper region flow">
             <h1>Logotyp</h1>
-            <p><em>Beskriv logotypens design och betydelse.</em></p>
+            <p><em>Logotypen har en blå, rund symbol med fyra former som möts i mitten. Den liknar ett hjul eller ett bilmärke, 
+                vilket passar bilar. Den blå färgen står för teknik, trygghet och framtid. Texten “RoboCar” är enkel och modern, 
+                vilket visar att vårt företag jobbar med självkörande och smarta bilar.
+            </em></p>
             <p>Vår logotyp representerar vårt varumärke och ska användas enligt riktlinjerna nedan.</p>
             <p>Logotypen finns i två olika varianter, med text och enbart symbol.</p>
             <div class="region">
@@ -56,11 +61,15 @@
         </article>
         <article id="type" class="wrapper region flow">
             <h1>Typografi</h1>
-            <p><em>Försök förklara valet av typsnitt och vad du vill förmedla med dem.</em></p>
+            <p><em>Montserrat är ett modernt och rent typsnitt. 
+                Det är lätt att läsa och känns tekniskt och professionellt. 
+                Det förmedlar innovation, pålitlighet och framtid, 
+                vilket passar vårt företag.
+            </em></p>
             <p>Vi använder följande typsnitt för våra dokument och webbplatser:</p>
             <ul>
-                <li class="heading"><strong>Rubriker:</strong> sans-serif, vikt 600-800, radavstånd 1.1</li>
-                <li><strong>Brödtext:</strong> serif, vikt normal, radavstånd 1.5</li>
+                <li class="heading"><strong>Rubriker:</strong> Montserrat, vikt 600-800, radavstånd 1.1</li>
+                <li><strong>Brödtext:</strong> Montserrat, vikt normal, radavstånd 1.5</li>
             </ul>
             <h2>Text och rubriker</h2>
             <p>Rubriker ska vara tydliga och använda rätt storlek enligt hierarkin.</p>
@@ -83,49 +92,20 @@
         </article>
         <article id="color" class="wrapper region flow">
             <h1>Färger</h1>
-            <p><em>Beskriv färgpaletten och dess användning.</em></p>
-            <p>Företagets färgpalett är vald för att förmedla en känsla av...</p>
+            <p>Företagets färgpalett är vald för att förmedla en känsla av teknik, 
+                trygghet och framtid. Den blå färgen står för pålitlighet, innovation och stabilitet, 
+                vilket passar vårt företag.
+            </p>
             <h2>Primär färg</h2>
-            <p><em>Vår primära färg är och den är vald för att.</em></p>
-            <div class="color-swatches region">
-                <div class="color-swatch primary-bg light">
-                    <p><strong>Text:</strong> ljus på primär</p>
-                    <p>Hex: #3498db</p>
-                </div>
                 <div class="color-swatch primary-bg dark">
                     <p><strong>Text:</strong> mörk på primär</p>
-                    <p>Hex: #3498db</p>
-                </div>
-                <div class="color-swatch primary">
-                    <p><strong>Text:</strong> primär på ljus</p>
-                    <p>Hex: #3498db</p>
+                    <p>Hex: #87c7ff</p>
                 </div>
                 <div class="color-swatch primary dark-bg">
                     <p><strong>Text:</strong> primär på mörk</p>
-                    <p>Hex: #3498db</p>
+                    <p>Hex: #87c7ff</p>
                 </div>
             </div>
-            <h2>Sekundär färg</h2>
-            <p><em>Vår sekundära färg är och den kompletterar den primära färgen genom att.</em></p>
-            <div class="color-swatches region">
-                <div class="color-swatch secondary-bg light">
-                    <p><strong>Text:</strong> ljus på sekundär</p>
-                    <p>Hex: #3498db</p>
-                </div>
-                <div class="color-swatch secondary-bg dark">
-                    <p><strong>Text:</strong> mörk på sekundär</p>
-                    <p>Hex: #3498db</p>
-                </div>
-                <div class="color-swatch secondary">
-                    <p><strong>Text:</strong> sekundär på ljus</p>
-                    <p>Hex: #3498db</p>
-                </div>
-                <div class="color-swatch secondary dark-bg">
-                    <p><strong>Text:</strong> sekundär på mörk</p>
-                    <p>Hex: #3498db</p>
-                </div>
-            </div>
-            <p>Om du har fler färger så skapa nya färgprover med samma struktur.</p>
             <a href="#extra" class="arrow-down">
                 <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px">
                     <path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z" />
@@ -134,18 +114,14 @@
         </article>
         <article id="extra" class="wrapper region flow">
             <h1>Övrigt</h1>
-            <p><em>Inkludera andra viktiga element av den grafiska profilen här.</em></p>
-            <p>Här kan du lägga till riktlinjer för ikoner, bildstil, layoutprinciper och andra visuella element som är
+            <p><em>Andra viktiga element av den grafiska profilen finns här.</em></p>
+            <p>Denna del kan innehålla riktlinjer för ikoner, bildstil, layoutprinciper och andra visuella element som är
                 viktiga för att upprätthålla en konsekvent grafisk profil.</p>
             <h2>Ikoner</h2>
             <p>För ikoner så använder vi oss av <a href="https://fonts.google.com/icons">Google icons</a>. Försök
                 använda svg-filer i html koden om möjligt för störst kontroll. Det går då att applicera färgklasser med
                 css på svg-bilden.</p>
             <div class="region">
-                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px"
-                    fill="#000000">
-                    <path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z" />
-                </svg>
                 <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px"
                     class="primary">
                     <path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z" />
@@ -158,6 +134,10 @@
             <h2>Bildstil</h2>
             <p>Bilder ska vara högupplösta och följa en konsekvent stil som speglar vårt varumärke.</p>
             <p>Undvik överdriven redigering och använd naturliga färger när det är möjligt.</p>
+            <img src="images/sedan.png" alt="Bilmodell Sedan">
+            <img src="images/suv.png" alt="Bilmodell SUV">
+            <img src="images/minivan.png" alt="Bilmodell Minivan">
+            <img src="images/van.png" alt="Bilmodell Skåpbil">
             <h2>Knappar</h2>
             <p>Knappar ska vara tydliga och använda våra primära eller sekundära färger beroende på kontext.</p>
             <div class="region buttons">
