@@ -197,7 +197,7 @@ img {
 
 .arrow-down:hover,
 .arrow-down:focus {
-    opacity: 0.8;
+    filter: brightness(90%);
 }
 
 .color-swatches {
